@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+#map {
+  width: 100%;
+  height: 100% !important;
+	border: 1px solid red;
+}
+
+.scroll, .mapWrap {
+  height: 100%;
+}
