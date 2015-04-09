@@ -8,15 +8,16 @@
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+<!--     IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above-->
     <link href="css/ionic.app.css" rel="stylesheet">
-    -->
+    
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
+
   
 <!--	  <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true"></script>-->
 	  
@@ -30,8 +31,12 @@
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/services.js"></script>
+	<script src="js/directives.js"></script>
+	  
+	  
   </head>
   <body ng-app="starter">
+	  <toaster-container toaster-options="{'position-class': 'toast-bottom-full-width'}"></toaster-container>
     <!--
       The nav bar that will be updated as we navigate between views.
     -->
